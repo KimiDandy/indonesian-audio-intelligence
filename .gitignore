@@ -1,0 +1,35 @@
+# Claude Code internal files
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+.venv
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Model checkpoints (large files — saved to Drive, not git)
+checkpoints/
+whisper-id-finetuned/
+*.pt
+*.safetensors
+*.bin
+
+# Results (generated at runtime — not committed)
+classification_results.json
+wer_results.json
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
